@@ -1,0 +1,72 @@
+.menu{
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+}
+
+.menu>div{
+    margin-right: 120px;
+    margin-left: 120px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.menu-link{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.menu-link a{
+    color: rgb(76, 137, 207);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.menu-link:hover{
+    border-bottom: 1px solid darkblue;
+}
+
+.contents a{
+    color: rgb(76, 137, 207);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.contents a:hover{
+    color: darkblue;
+}
+
+.contents {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.contents:hover .dropdown-content {
+    display: block;
+  }
+
+.textblock{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 1200px;
+}
+.title{
+    height: 20pt;
+    color:cornflowerblue;
+}
+
+.vocab{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 120px;
+}
