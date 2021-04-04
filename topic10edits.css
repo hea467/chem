@@ -1,0 +1,21 @@
+.submenu{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.submenu>div{
+    margin: auto
+}
+
+.introisomers{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.explanation{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
